@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+
+nav {
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+  padding:0%;
+  color: grey;
+  
+  width: 93%;
+  
+}
+
+p{
+
+}
+.div1 {
+  gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 20px;
+ 
+  
+}
+
+.div2 {
+  gap: 10px;
+  display: flex;
+  float: right;
+  padding: 0;
+  margin-right: 20px;
+ 
+}
+
+.login{
+    margin-top: 10px;
+}
+
+.register {
+  margin: 0;
+  color: grey;
+  /* padding: 2px; */
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  text-align: center;
+  padding-top: 0px;
+}
+.title {
+  padding: 30px;
+  font-size: 30px;
+}
+.make{
+    font-size: 70px;
+}
+
+.title h2 {
+  font-size: 80px;
+}
+
+.title p {
+  color: grey;
+}
+.learn-more {
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  margin: 30px;
+  color: white;
+}
+
+.main-body {
+  display: flex;
+  margin: 0;
+ 
+}
+.body-image {
+  height: 50%;
+  object-fit: contain;
+  width: 100%;
+  padding: 20px;
+  padding-right: 10px;
+}
+.svgs {
+  align-items: center;
+  justify-content: space-around;
+  text-transform: center;
+  margin: 0;
+  padding-left: 30px;
+}
+.svgs img {
+  padding: 10px;
+}
