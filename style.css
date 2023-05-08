@@ -95,7 +95,7 @@ p{
 .body-image {
   height: 50%;
   object-fit: contain;
-  width: 100%;
+  width: 100%20rem;
   padding: 20px;
   padding-right: 10px;
 }
